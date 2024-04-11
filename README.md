@@ -23,6 +23,7 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 + **Conexión a base de datos en Postgresql**  :electric_plug:
       _ _Si cuentas con pgAdmin para Postgres, crea una base de datos nueva y agrega los tus datos correspondientes a los siguientes objetos en el siguiente formato que se encuentra en settings.py del proyecto_ _
         <br>
+        
         DATABASES = {
             'default': {
             'ENGINE': 'django.db.backends.postgresql',
