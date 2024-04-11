@@ -1,4 +1,4 @@
-## Florería
+## Florería :sunflower: :white_flower:
 
 El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un CRUD mediante el uso de la clase APIView. El proyecto esta basando en el tema de una florería que requiere almacenar en una base de datos lo siguiente:
 
@@ -7,6 +7,6 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 - Cada que tiempo es necesario regar la planta/árbol
 - El tamaño de crecimiento de la planta
 
-##Instalación 
+## Instalación 
 
 
