@@ -54,8 +54,10 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 
 + **Abrir el puerto de los endpoints** :chains:
 
-`python manage.py runserver` 
-  ó 
+`python manage.py runserver`
+
+ó 
+  
 `python manage.py runserver 0.0.0.0:8000`
   
 + **JSON para endpoint**  :placard:
