@@ -42,19 +42,25 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
         }
 
 + **Migrations** :page_with_curl:
- <br>
+
+
   En tu terminal ejecuta los siguientes comandos en el orden correspondiente.
-  <br>
-        `python manage.py migrate` <br>
-        `python manage.py makemigrations plantas` <br>
-        `python manage.py migrate plantas`<br>
+ 
+  
+        `python manage.py migrate` 
+        
+        `python manage.py makemigrations plantas` 
+        
+        `python manage.py migrate plantas`
+        
   
 + **Abrir el puerto de los endpoints** :chains:
-  <br>
+
+  
         `python manage.py runserver` o `python manage.py runserver 0.0.0.0:8000`
   
 + **Utiliza el siguiente JSON para probar tu endpoint**  :placard:
-  <br>
+ 
   
         {
           "name":"Jacaranda",
@@ -64,6 +70,7 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
         }
         _ _Recuerda que puedes usar cualquier gestor de APIs de tu preferencia, (ejem. Postman, Thunder Client, tu navegador, etc.)_ _
   
-+ **Listo** :four_leaf_clover: <br>
++ **Listo** :four_leaf_clover:
+
       _Ahora puedes usar el proyecto y probar cada uno de los enpoints_
 
