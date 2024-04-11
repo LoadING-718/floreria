@@ -1,4 +1,4 @@
-### Florería :sunflower: :white_flower:
+# Florería :sunflower::white_flower:
 
 El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un CRUD mediante el uso de la clase APIView. El proyecto esta basando en el tema de una florería que requiere almacenar en una base de datos lo siguiente:
 
@@ -18,7 +18,7 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 `py -m venv venv`
 
   
-  _No olvides activar tu ambiente virtual_
+:loudspeaker: _No olvides activar tu ambiente virtual_
   
 + **Instalación de liberías** :card_index_dividers:
 
@@ -73,7 +73,7 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 
   _Recuerda que puedes usar cualquier gestor de APIs de tu preferencia, (ejem. Postman, Thunder Client, tu navegador, etc.)_  
   
-+ **Listo** :four_leaf_clover:
++ **Listo** :four_leaf_clover::four_leaf_clover::four_leaf_clover::four_leaf_clover:
 
   _Ahora puedes usar el proyecto y probar cada uno de los enpoints_
 
