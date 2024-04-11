@@ -7,6 +7,8 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 - Cada que tiempo es necesario regar la planta/árbol
 - El tamaño de crecimiento de la planta
 
-## Instalación 
+## Instalación :desktop_computer:
+
++ **Clonar el repositorio**
 
 
