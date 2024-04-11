@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import plantregistry
+from .models import PlantRegistry
 
 class PlantRegistrySerializer(serializers.ModelSerializer):
     class Meta:
-        model = plantregistry
+        model = PlantRegistry
         fields = '__all__'
