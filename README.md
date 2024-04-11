@@ -45,17 +45,18 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 
   En tu terminal ejecuta los siguientes comandos en el orden correspondiente.
   
-```
-python manage.py migrate
-python manage.py makemigrations plantas
-python manage.py migrate plantas
-```
+`python manage.py migrate`
+`python manage.py makemigrations plantas`
+`python manage.py migrate plantas`
+
 
 + **Abrir el puerto de los endpoints** :chains:
 
-`python manage.py runserver` o `python manage.py runserver 0.0.0.0:8000`
+`python manage.py runserver` 
+  ó 
+`python manage.py runserver 0.0.0.0:8000`
   
-+ **Utiliza el siguiente JSON para probar tu endpoint**  :placard:
++ **JSON para endpoint**  :placard:
  
         {
           "name":"Jacaranda",
