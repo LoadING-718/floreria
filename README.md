@@ -9,11 +9,11 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 
 ## Instalación :desktop_computer:
 
-+ **Clonar el repositorio** :link:
-
++ **Clonar el repositorio** :link: <br>
       `git clone https://github.com/LoadING-718/floreria.git`
   
 + **Creación de ambiente virtual** :wrench:
+  <br>
       `py -m venv venv`
       _ _No olvides activar tu ambiente virtual_ _
   
@@ -22,7 +22,7 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
   
 + **Conexión a base de datos en Postgresql**  :electric_plug:
       _ _Si cuentas con pgAdmin para Postgres, crea una base de datos nueva y agrega los tus datos correspondientes a los siguientes objetos en el siguiente formato que se encuentra en settings.py del proyecto_ _
-  
+        <br>
         DATABASES = {
             'default': {
             'ENGINE': 'django.db.backends.postgresql',
@@ -37,15 +37,17 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 + **Migrations** :page_with_curl:
 
   En tu terminal ejecuta los siguientes comandos en el orden correspondiente.
-        `python manage.py migrate`
-        `python manage.py makemigrations plantas`
-        `python manage.py migrate plantas`
+  <br>
+        `python manage.py migrate` <br>
+        `python manage.py makemigrations plantas` <br>
+        `python manage.py migrate plantas`<br>
   
 + **Abrir el puerto de los endpoints** :chains:
-  
+  <br>
         `python manage.py runserver` o `python manage.py runserver 0.0.0.0:8000`
   
 + **Utiliza el siguiente JSON para probar tu endpoint**  :placard:
+  <br>
         {
           "name":"Jacaranda",
           "light":"Sol",
