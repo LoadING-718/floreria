@@ -21,9 +21,8 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
   _No olvides activar tu ambiente virtual_
   
 + **Instalación de liberías** :card_index_dividers:
-  
-  
-      `pip install -r requirements.txt`
+
+     pip install -r requirements.txt
   
 + **Conexión a base de datos en Postgresql**  :electric_plug: <br>
 
@@ -45,32 +44,27 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 
 
   En tu terminal ejecuta los siguientes comandos en el orden correspondiente.
- 
-  
-        `python manage.py migrate` 
-        
-        `python manage.py makemigrations plantas` 
-        
-        `python manage.py migrate plantas`
-        
-  
-+ **Abrir el puerto de los endpoints** :chains:
+      ```
+      python manage.py migrate
+      python manage.py makemigrations plantas
+      python manage.py migrate plantas
+      ```
 
-  
++ **Abrir el puerto de los endpoints** :chains:
         `python manage.py runserver` o `python manage.py runserver 0.0.0.0:8000`
   
 + **Utiliza el siguiente JSON para probar tu endpoint**  :placard:
  
-  
         {
           "name":"Jacaranda",
           "light":"Sol",
           "irrigation":"Si",
           "alto": "50m"
         }
-        _ _Recuerda que puedes usar cualquier gestor de APIs de tu preferencia, (ejem. Postman, Thunder Client, tu navegador, etc.)_ _
+
+  _Recuerda que puedes usar cualquier gestor de APIs de tu preferencia, (ejem. Postman, Thunder Client, tu navegador, etc.)_  
   
 + **Listo** :four_leaf_clover:
 
-      _Ahora puedes usar el proyecto y probar cada uno de los enpoints_
+  _Ahora puedes usar el proyecto y probar cada uno de los enpoints_
 
