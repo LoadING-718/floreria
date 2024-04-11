@@ -27,10 +27,10 @@ from plantas.views import (
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # DELETE URLS
+#
     path('create/plant', CreateResitryPlantView.as_view(), name= "Create Object Plant"),
-    path('list', RetrievePlantsView.as_view(), name= "Lista de plantas"),
-    path('list/<int:pk>/', RetrievePlantsidView.as_view(), name="Lista por id"), 
+    path('read', RetrievePlantsView.as_view(), name= "Lista de plantas"),
+    path('read/<int:pk>/', RetrievePlantsidView.as_view(), name="Lista por id"), 
     path('update/<int:pk>/', UpdateRegitryPlant.as_view(), name="Update Registry by Id"),
     path('deleteall/', DeleteallPlantRegistryView.as_view(), name='delete_all_plants'),
     path('delete/<int:pk>/', DeletePlantRegistryView.as_view(), name='delete_specific_plant'),
