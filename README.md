@@ -40,6 +40,8 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
             }
         }
 
+## Uso :joystick:
+
 + **Migrations** :page_with_curl:
 
 
