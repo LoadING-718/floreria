@@ -18,6 +18,7 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
       _ _No olvides activar tu ambiente virtual_ _
   
 + **Instalación de liberías** :card_index_dividers:
+  <br>
       `pip install -r requirements.txt`
   
 + **Conexión a base de datos en Postgresql**  :electric_plug:
