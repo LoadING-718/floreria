@@ -12,6 +12,10 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 + **Clonar el repositorio** :link:
   
 `git clone https://github.com/LoadING-718/floreria.git`
+
+_Abrir Visual Studio Code o IDE con comando_
+
+`code .`
   
 + **Creación de ambiente virtual** :wrench:
 
