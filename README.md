@@ -14,11 +14,25 @@ El siguiente proyecto cuenta con 6 endpoints con la finalidad de ejemplificar un
 `git clone https://github.com/LoadING-718/floreria.git`
   
 + **Creación de ambiente virtual** :wrench:
- 
+
+ _Para versión 3.11 de python_
+
 `py -m venv venv`
 
   
 :loudspeaker: _No olvides activar tu ambiente virtual_
+
+_Activación para Windows PowerShell_
+
+`venv/Scripts/Activate.ps1`
+
+_Activación para bash_
+
+`venv/bin/activate`
+
+_Pudes consultar la documentación de ambientes virtuales de python en el siguiente link_
+
+https://docs.python.org/es/3.11/library/venv.html#module-venv
   
 + **Instalación de liberías** :card_index_dividers:
 
